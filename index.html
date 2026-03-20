@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online AI Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <header>
+      <div class="header-left">
+        <div class="logo">🤖</div>
+        <div>
+          <h1>Online AI Chat</h1>
+          <span class="subtitle">Free •  API Key • Online</span>
+        </div>
+      </div>
+      <div class="status" id="status">● Online</div>
+    </header>
+
+    <div class="chat-box" id="chatBox">
+      <div class="message bot">
+        👋 Hello buddy! I am ready to chat. Ask me anything!
+      </div>
+    </div>
+
+    <div class="input-area">
+      <textarea
+        id="userInput"
+        placeholder="Type your message here... (Enter to send)"
+        rows="1"
+      ></textarea>
+      <button id="sendBtn" onclick="sendMessage()">➤</button>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
